@@ -1,0 +1,52 @@
+/* ------------------ESTILOS INICIALES DEL MENU----------------------- */
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');                
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+   h1, h2, h3, h4, h5{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif;  } 
+    
+  header{
+    background: transparent;
+     background: rgba(0,0,0,0.5);
+    width: 100%;
+    position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   float: left;
+   font-size: 20px;
+  }
+  .imagenmenu{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .navbar-nav ul{
+    /* background: rgba(212, 11, 11, 0.1); */
+}
+.navbar-nav li {
+    padding-left: 3rem;
+    list-style-type: none;
+    font-family: 'Helvetica Neue', sans-serif;
+
+  }
+  .navbar-nav a{
+    color:rgb(255, 255, 255);
+
+  }
+  
+  .navbar-nav li:hover a{
+    color: rgba(8, 80, 114, 0.9);
+    font-family: 'Helvetica Neue', sans-serif;
+    text-decoration-line: none;
+    
+  }
+  @media (max-width:1000px){
+    .menu ul  a{
+  padding: 20px 40px;
+  
+    }
+}

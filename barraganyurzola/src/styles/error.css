@@ -1,0 +1,99 @@
+
+.errorBody{
+    background-color: #085072;
+}
+.errorBody > .container{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: auto;
+    margin-bottom:auto ;
+}
+.errorBody .card{
+    background-color: #085072;
+    margin-top: 100px;
+    position: relative;  
+
+}
+.errorBody .star{
+    position: absolute;
+}
+.errorBody .star img{
+    width: 100%;
+}
+
+.errorBody .top{
+    left: 37px;
+    top: -71px;
+    width: 300px;
+}
+.errorBody .top-rg{
+    right: 37px;
+    width: 83px;
+    top: -71px
+
+}
+.errorBody .bottom-lf{
+    bottom: -160px;
+    width: 300px;
+    left: 37px;
+}
+.errorBody .bottom-rg{
+    right: 37px;
+    bottom: -160px;
+    width: 83px;
+
+}
+.errorBody .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.error{
+    z-index: 1;
+    position: relative;
+}
+
+.error span{
+    font-size: 90px;
+    color: #150035;
+    font-weight: 900;
+    white-space: pre-line;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-shadow: 1px 7px 1px #fff;
+}
+.error p{
+    color: #fff;
+    white-space: pre-line;
+    padding-top: 25px;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.errorBody .img img{
+    width: 570px;
+}
+.errorBody button{
+    width: 100px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    border: none;
+    background-color:#150035 ;
+    color:#085072 ;
+    position: relative;
+   
+}
+.errorBody button::after{
+    content: '';
+    width: 96px;
+    height: 35px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    z-index: -1;
+}

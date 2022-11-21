@@ -1,0 +1,118 @@
+*{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+.titleAreas{
+  text-align: center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif; 
+    padding: 30px;
+
+}
+#info-derechos-familia h3{
+  text-align: center;
+  padding-left: 10px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #085072;
+  font-size: 22px;
+}
+
+#info-derechos-familia{
+  padding-top: 100px;
+}
+#info-derechos-familia h1{
+  text-align: center;
+}
+#info-derechos-familia p{
+  text-align: center;
+
+}
+.card{
+  border-style: none;
+}
+#tituloac{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif; 
+  text-decoration: none;
+    color: #085072;
+}
+.card-header:active{
+  background-color: #838483;
+
+}
+.card-header:hover{
+  background-color: #838483;
+}
+.card-header img{
+  padding-right: 20px;
+}
+#card2{
+  padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#bodycollapse{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+/* mobile first */
+#banner{
+  display: none;
+
+}
+#foot{
+  background-color: inherit;
+
+}
+
+/* --------------------------------banner design----------------------------------------- */
+@media (min-width: 750px){
+  #banner{
+    display:block;
+}
+#foot{
+  background-color: #085072;
+padding-top: 50px;
+margin-top: 50px;
+}
+#foot h6{
+  color: #fff;
+}
+#foot p{
+    color: #fff;
+}
+#info-footer{
+    color: #fff;
+}
+#links a{
+    color: #fff;
+}
+#titulo1{
+  background-color: #085072;
+  color: #fff;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif; 
+    padding: 30px;
+
+}
+#titulo1:hover{
+  background-color: #085072;
+}
+
+.card-body-banner{
+  background-color: #f2f2f2;
+  padding: 50px;
+  margin-top: 0;
+
+}
+.card-body-banner a{
+  text-decoration: none;
+color: #085072;
+}
+.card-body-banner a:hover, .card-body-banner a:active{
+  color: #838483;
+  cursor: pointer;
+}
+}

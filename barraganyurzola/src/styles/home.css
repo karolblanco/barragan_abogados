@@ -1,0 +1,359 @@
+*{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+   Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+html{
+  scroll-behavior: smooth !important;
+}
+#acerca-de h1{
+    color:  #085072 !important;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+ #acerca-de{
+    margin-top: 5%;
+    margin-bottom: 2%;
+ }  
+ #acerca-de p{
+    text-align: justify;
+ }
+ /*====Welcome Section====*/
+.heading-section h2{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.img-wrap .effect{
+  position: relative;
+  margin-bottom: 0;
+  display: block;
+}
+.img-wrap .effect:after{
+  z-index:-1;
+  content:"";
+  position: absolute;
+  top:10px;
+  right:10px;
+  bottom:10px;
+  left:10px;
+  background: #011525;
+  transition: .3s all ease-in-out;
+}
+.img-wrap:hover .effect:after{
+  right:-10px;
+  bottom:-10px;
+  position: absolute;
+}
+.btn-about{
+  background-color: #030157!important;
+  color:#fff!important;
+  margin-right:5px;
+  margin-left:5px;
+  animation:skew 3s infinite;
+  animation-direction: normal;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  padding:5px 17px;
+}
+@keyframes skew{
+  0%{
+      transform: skewX(20deg);
+  }
+  100%{
+      transform: skewX(-20deg);
+  }
+}
+/* ---------services------------ */
+#services{
+  padding: 5% !important;
+}
+#services img{
+  width: 80%;
+  height: 80%;
+  padding-bottom: 0;
+}
+#services .circle{
+  /* margin-top: 20px; */
+  width: 50%;
+  height: 50%;
+  /* -moz-border-radius: 50%; */
+  /* -webkit-border-radius: 50%; */
+  /* border-radius: 50%; */
+  display:inline-block;
+  background: transparent;
+  /* border:1px solid #fff; */
+  overflow:hidden;
+  }
+   /* #services .circle:hover {
+    background:#FFF;  
+    transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+  }  */
+  #services .circle:hover img {-webkit-transform:scale(1.3);transform:scale(1.3);}
+ /* -------------------------ESTILOS practice_area--------------------------- */
+   
+   #practice_area p{
+     font-size: 10px;
+     color: WHITE;
+   }
+   #practice_area h1{
+     justify-content: center;
+     text-align: center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     color:  #838483  !important;
+     font-weight: bold;
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+     Helvetica, Arial, "Lucida Grande", sans-serif;  
+   
+   
+   
+   }
+   #practice_area h3{
+      font-size: 25px;
+     padding-top: 30px;
+     padding-left: 30px;
+     padding-right: 40px;
+     padding-bottom: 30px;
+     /* background: rgba(0, 0, 0, 0.1); */
+   background: #085072;
+   }
+   #practice_area a{
+   color: #000;
+   text-decoration: none;
+   
+   }
+   /* #practice_area img{
+   text-align: center;
+   padding-left: 10px;
+   
+   } */
+   #practice_area h3:hover{
+     background: #838483; 
+     cursor: pointer;
+   }
+   
+   .align{
+   padding-left: 150px;
+   }
+   .align1{
+     padding-left: 245px;
+   }
+   .align2{
+     padding-left: 75px;
+   }
+   .align3{
+     padding-left: 170px;
+   }
+   .align4{
+     padding-left: 190px;
+   }
+   .align5{
+     padding-left: 150px;
+   }
+   @media (max-width: 1190px) {
+   .align, .align1, .align2, .align3, .align4, .align5{
+     padding-left: 0;
+   }
+   }
+
+   /* Lawyers card section */
+   #lawyers{
+    margin-top: 5%;
+    margin-bottom: 2%;
+   }
+   #lawyers h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #085072;
+   }
+   /* ---------------------------our team section---------------------- */
+   #ourTeam{
+    margin-top: 5%;
+ 
+   }
+   .our{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif; 
+    margin: 0 auto;
+    text-align: center;
+    font-weight:lighter !important;
+    padding: 0;
+    color: #085072;
+    font-size: 4em;
+    letter-spacing: 2px;
+    line-height: 0;
+   }
+   .title-brand {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif; 
+  max-width: 730px;
+  margin: 0 auto;
+  padding-left: 6%;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  letter-spacing: 2px;
+  position: absolute;
+  z-index: 1;
+
+}
+.title-brand .type {
+  /* position: absolute; */
+  font-size: 20px;
+  background: #132026;
+  padding: 0px 0px;
+  border-radius: 4px;
+  top: 0;
+  font-weight: 600;
+  margin-top: 0px;
+ /* right: -15px;  */
+}
+
+.presentation-title {
+  font-size: 14em;
+  font-weight: 700;
+  margin: 0;
+  color: #FFFFFF;
+  background: #fbf8ec;
+  /* background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%); */
+  /* background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%); */
+  /* background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #c5c5c5;
+  padding-bottom: 0;
+}
+.teamSwiperHome{
+  margin-top: 12%;
+  z-index: 10;
+}
+/* Responsive title */
+@media (max-width: 750px) {
+  .presentation-title {
+    font-size: 7em;
+    font-weight: 700;
+    margin: 0;
+    color: #FFFFFF;
+    background: #fbf8ec;
+    background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%); 
+     background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%); 
+     background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #c5c5c5;
+    padding-bottom: 0px;
+  }
+  .teamSwiperHome{
+    margin-top: 18%;
+    z-index: 10;
+  }
+}
+@media  (min-width: 751px) and (max-width: 760px) {
+  .presentation-title {
+    font-size: 10em;
+    font-weight: 700;
+    margin: 0;
+    color: #FFFFFF;
+    background: #fbf8ec;
+    background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%); 
+     background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%); 
+     background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #c5c5c5;
+    padding-bottom: 0px;
+  }
+  .teamSwiperHome{
+    margin-top: 18%;
+    z-index: 10;
+  }
+}
+@media (min-width: 761px) and (max-width: 960px) {
+  .presentation-title {
+    font-size: 14em;
+    font-weight: 700;
+    margin: 0;
+    color: #000000;
+    background: #fbf8ec;
+    background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%); 
+     background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%); 
+     background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #c5c5c5;
+    padding-bottom: 0px;
+  }
+  .teamSwiperHome{
+    margin-top: 18%;
+    z-index: 10;
+  }
+}
+/* ----------------------------wpp----------------------- */
+.btn-whatsapp-pulse {
+	background: #25d366;
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	/* font-size: 40px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0;
+	height: 0;
+	padding: 35px;
+	text-decoration: none;
+	border-radius: 50%;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+  z-index: 10;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+	}
+	80% {
+		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+	}
+}
+
+.btn-whatsapp-pulse-border {
+	bottom: 120px;
+	right: 20px;
+	animation-play-state: paused;
+}
+
+.btn-whatsapp-pulse-border::before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	padding: 25px;
+	border: 5px solid #25d366;
+	opacity: 0.75;
+	animation-name: pulse-border;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse-border {
+	0% {
+		padding: 25px;
+		opacity: 0.75;
+	}
+	75% {
+		padding: 50px;
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+.about-section p{
+  font-size: 17px;
+}

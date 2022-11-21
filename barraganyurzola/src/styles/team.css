@@ -1,0 +1,97 @@
+/* -------------------------------ESTILOS DEL RESTO DE EQUIPO DE LA FIRMA ------------------.----------- */
+
+.equipob-item img{
+  width: 100%;
+  height: 100%;
+  }
+  .equipob h1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  
+  }
+  
+  .equipob-container{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .equipob-item{
+    width: 100%;
+    position: relative;
+      overflow: hidden;
+
+  }
+  .equipob-text{
+    position: absolute;
+    bottom: 23px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    transform: translateY(100%);
+  transition: all 0.5s ease-out;
+  }
+  .equipob-text p{
+  text-align: center;
+  
+  }
+  .equipob-text h2{
+    margin-top: 0;
+  
+  }
+  .equipob-item:hover .equipob-text, .equipob-item:active .equipob-text{
+    transform: translateY(25%);
+  
+  }
+  
+  
+  @media (min-width:610px) and (max-width: 910px) {
+  .equipob-container{
+    display: block;
+    width: 100%;
+  }
+  .equipob-item{
+    /* padding: 30px; */
+    /* margin: 30px; */
+    width: 100%;
+    position: relative;
+  }
+  .equipob-text{
+    position: absolute;
+    padding: 10px;
+    bottom: 0px;
+    transform: translateY(100%);
+    width: 100%;
+  
+  }
+  .equipob-item:hover .equipob-text, .equipob-item:active .equipob-text{
+    transform: translateY(-50%);
+     width: 100%;
+  
+  }
+  }
+  @media (max-width:605px) {
+    .equipob-container{
+      display: block;
+      width: 100%;
+      background-color: transparent;
+    }
+    .equipob-item{
+    /* margin: 20px; */
+      width: 100%;
+      position: relative;
+    }
+    .equipob-item:hover .equipob-text, .equipob-item:active .equipob-text{
+      transform: translateY(-50%);
+       width: 100%;
+    
+    }
+    .equipob-text{
+      position: absolute;
+      padding: 30px;
+      bottom: 0px;
+      width: 100%;
+    }
+  }
